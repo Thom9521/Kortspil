@@ -15,7 +15,9 @@ public class Main {
         //Jeg udskriver en tekst
         System.out.println("A blackjack hand: " + highCard + " and " + faceCard);
 
-        //Jeg har lavet 2 variabler og brugt ordinal-metode og lagt 1 til for at få den rigtige værdi for kortet
+        /*Jeg har lavet 2 variabler og brugt ordinal-metode og lagt 1 til, da ACE ikke bliver opfattet som et tal,
+        hvilket betyder at TWO bliver til 1 og THREE bliver til 2 osv.
+        */
         int card1Val, card2Val;
         card1Val = card1.ordinal() +1;
         card2Val = card2.ordinal() +1;
