@@ -12,10 +12,11 @@ public class Main {
         card1 = Rank.FIVE;
         card2 = Rank.NINE;
 
+
         //Jeg udskriver en tekst
         System.out.println("A blackjack hand: " + highCard + " and " + faceCard);
 
-        /*Jeg har lavet 2 variabler og brugt ordinal-metode og lagt 1 til, ordinal starter på 0,
+        /*Jeg har lavet 2 variabler og brugt ordinal-metode og lagt 1 til fordi ordinal starter på 0,
         hvilket betyder at ACE bliver til 0, TWO bliver til 1 og THREE bliver til 2 osv.
         */
         int card1Val, card2Val;
