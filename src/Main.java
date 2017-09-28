@@ -27,9 +27,10 @@ public class Main {
 
 
 
-        
+
 
         //Lidt ekstra
+
         Rank card3, card4, card5, card6;
 
         card3 = Rank.EIGHT;
